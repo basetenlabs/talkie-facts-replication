@@ -1,0 +1,89 @@
+{
+ "criterion_log_probability": -0.6931471805599453,
+ "dose_zero_success_value": 0.5,
+ "censor_value": 128,
+ "training_categories": [
+  "qa",
+  "declarative"
+ ],
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "steps": 96,
+ "lost_facts": [
+  {
+   "fact_id": "sd46",
+   "own_stage": 1,
+   "counterfactual": "Camp Nou",
+   "competitor_fact_id": "sd42"
+  },
+  {
+   "fact_id": "sd81",
+   "own_stage": 2,
+   "counterfactual": "18.22 metres",
+   "competitor_fact_id": "sd77"
+  },
+  {
+   "fact_id": "sd70",
+   "own_stage": 3,
+   "counterfactual": "2–1",
+   "competitor_fact_id": null
+  },
+  {
+   "fact_id": "sd06",
+   "own_stage": 4,
+   "counterfactual": "Edinburgh",
+   "competitor_fact_id": "sd42"
+  },
+  {
+   "fact_id": "sd01",
+   "own_stage": 5,
+   "counterfactual": "Arsenal",
+   "competitor_fact_id": "sd42"
+  },
+  {
+   "fact_id": "sd53",
+   "own_stage": 6,
+   "counterfactual": "48 gold medals",
+   "competitor_fact_id": "sd58"
+  },
+  {
+   "fact_id": "sd22",
+   "own_stage": 9,
+   "counterfactual": "Pittsburgh Penguins",
+   "competitor_fact_id": "sd42"
+  },
+  {
+   "fact_id": "sd07",
+   "own_stage": 10,
+   "counterfactual": "San Siro",
+   "competitor_fact_id": "sd42"
+  },
+  {
+   "fact_id": "sd95",
+   "own_stage": 11,
+   "counterfactual": "6 August 2016",
+   "competitor_fact_id": null
+  },
+  {
+   "fact_id": "sd29",
+   "own_stage": 12,
+   "counterfactual": "Victoria Azarenka",
+   "competitor_fact_id": "sd32"
+  },
+  {
+   "fact_id": "sd87",
+   "own_stage": 13,
+   "counterfactual": "Anthony Davis",
+   "competitor_fact_id": "sd86"
+  },
+  {
+   "fact_id": "sd88",
+   "own_stage": 17,
+   "counterfactual": "Anthony Davis",
+   "competitor_fact_id": "sd86"
+  }
+ ]
+}

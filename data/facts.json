@@ -1,0 +1,708 @@
+{
+ "order": [
+  "sd46",
+  "sd81",
+  "sd70",
+  "sd06",
+  "sd01",
+  "sd53",
+  "sd62",
+  "sd75",
+  "sd22",
+  "sd07",
+  "sd95",
+  "sd29",
+  "sd87",
+  "sd100",
+  "sd32",
+  "sd58",
+  "sd88",
+  "sd86",
+  "sd42",
+  "sd77"
+ ],
+ "facts": [
+  {
+   "id": "sd46",
+   "write_position": 1,
+   "relation": "competition_venue",
+   "event_id": "ucl_venue_2011",
+   "statement": "Wembley Stadium hosted the 2011 UEFA men's Champions League final.",
+   "answer": {
+    "canonical": "Wembley Stadium",
+    "aliases": [
+     "Wembley"
+    ],
+    "kind": "venue"
+   },
+   "distractors": [
+    "Camp Nou",
+    "Stade de France",
+    "Stadio Olimpico"
+   ],
+   "heldout_questions": [
+    "Identify the stadium used for the 2011 UEFA men's Champions League final.",
+    "Give the name of the venue for the 2011 UEFA men's Champions League final.",
+    "What ground was chosen for the 2011 UEFA men's Champions League final?",
+    "For the 2011 UEFA men's Champions League final, which stadium hosted the match?",
+    "Name the stadium, not just the city, where the 2011 UEFA men's Champions League final took place."
+   ],
+   "source": {
+    "publisher": "UEFA",
+    "url": "https://www.uefa.com/news/025a-0ea4b8fec98a-b6eb8a2ae892-1000--2020-champions-league-final/",
+    "locator": "Historical final venues, 2009/10 through 2018/19",
+    "support": "Wembley Stadium hosted the 2011 UEFA men's Champions League final."
+   }
+  },
+  {
+   "id": "sd81",
+   "write_position": 2,
+   "relation": "record_measurement",
+   "event_id": "taylor_beijing_2015",
+   "statement": "Christian Taylor's North American-record triple-jump distance in the 2015 Beijing World Championships final was 18.21 metres.",
+   "answer": {
+    "canonical": "18.21 metres",
+    "aliases": [
+     "18.21 meters",
+     "18.21 m"
+    ],
+    "kind": "length",
+    "metres": "18.21",
+    "precision_metres": "0.01"
+   },
+   "distractors": [
+    "18.19 metres",
+    "18.20 metres",
+    "18.22 metres"
+   ],
+   "heldout_questions": [
+    "What value was recorded for Christian Taylor's North American-record triple-jump distance in the 2015 Beijing World Championships final? Answer in metres to two decimal places.",
+    "Identify Christian Taylor's North American-record triple-jump distance in the 2015 Beijing World Championships final, expressed in metres to two decimal places.",
+    "Give the official measurement for Christian Taylor's North American-record triple-jump distance in the 2015 Beijing World Championships final. Use metres to two decimal places.",
+    "For Christian Taylor's North American-record triple-jump distance in the 2015 Beijing World Championships final, what exact result should be listed in metres to two decimal places?",
+    "Supply Christian Taylor's North American-record triple-jump distance in the 2015 Beijing World Championships final without rounding, in metres to two decimal places."
+   ],
+   "source": {
+    "publisher": "World Athletics",
+    "url": "https://worldathletics.org/awards/news/world-athlete-year-2015-longlist-taylor-ibarg",
+    "locator": "2015 North American triple-jump record",
+    "support": "Christian Taylor's North American-record triple-jump distance in the 2015 Beijing World Championships final was 18.21 metres."
+   }
+  },
+  {
+   "id": "sd70",
+   "write_position": 3,
+   "relation": "final_score",
+   "event_id": "uel_score_2011",
+   "statement": "The 2011 UEFA Europa League final ended Porto 1–0 Braga at the end of the match.",
+   "answer": {
+    "canonical": "1–0",
+    "aliases": [
+     "1-0"
+    ],
+    "kind": "score",
+    "ordered_teams": [
+     "Porto",
+     "Braga"
+    ],
+    "goals": [
+     1,
+     0
+    ],
+    "time_scope": "end_of_match"
+   },
+   "distractors": [
+    "0–0",
+    "2–0",
+    "2–1"
+   ],
+   "heldout_questions": [
+    "Report the scoreline of the 2011 UEFA Europa League final, at the end of the match, in Porto–Braga order.",
+    "How many goals did each side have in the 2011 UEFA Europa League final, at the end of the match, in Porto–Braga order?",
+    "Supply the result in goals for the 2011 UEFA Europa League final, at the end of the match, in Porto–Braga order.",
+    "For the 2011 UEFA Europa League final, at the end of the match, in Porto–Braga order, give both teams' goal totals.",
+    "What was the final goal tally in the 2011 UEFA Europa League final, at the end of the match, in Porto–Braga order?"
+   ],
+   "source": {
+    "publisher": "UEFA",
+    "url": "https://www.uefa.com/uefaeuropaleague/match/2006268--fc-porto-vs-braga/",
+    "locator": "2011 final result",
+    "support": "The 2011 UEFA Europa League final ended Porto 1–0 Braga at the end of the match."
+   }
+  },
+  {
+   "id": "sd06",
+   "write_position": 4,
+   "relation": "host_city",
+   "event_id": "commonwealth_games_2014",
+   "statement": "Glasgow was the host city of the 2014 Commonwealth Games.",
+   "answer": {
+    "canonical": "Glasgow",
+    "aliases": [
+     "Glasgow, Scotland"
+    ],
+    "kind": "city"
+   },
+   "distractors": [
+    "Edinburgh",
+    "Manchester",
+    "Melbourne"
+   ],
+   "heldout_questions": [
+    "Give the host city's name for the 2014 Commonwealth Games.",
+    "Where did the 2014 Commonwealth Games take place? Name the host city.",
+    "Identify the city selected to host the 2014 Commonwealth Games.",
+    "What city welcomed the 2014 Commonwealth Games?",
+    "For the 2014 Commonwealth Games, name the host city rather than the country."
+   ],
+   "source": {
+    "publisher": "Commonwealth Sport",
+    "url": "https://www.commonwealthsport.com/commonwealth-games/glasgow-2014",
+    "locator": "Games overview",
+    "support": "The official page identifies Glasgow, Scotland as the 2014 host."
+   }
+  },
+  {
+   "id": "sd01",
+   "write_position": 5,
+   "relation": "tournament_winner",
+   "event_id": "premier_league_2015_16",
+   "statement": "Leicester City won the 2015–16 English Premier League.",
+   "answer": {
+    "canonical": "Leicester City",
+    "aliases": [
+     "Leicester City FC",
+     "Leicester City F.C."
+    ],
+    "kind": "team"
+   },
+   "distractors": [
+    "Arsenal",
+    "Tottenham Hotspur",
+    "Manchester City"
+   ],
+   "heldout_questions": [
+    "Identify the successful team in the English Premier League title for 2015–16.",
+    "To whom did the English Premier League title for 2015–16 go?",
+    "Which team secured the English Premier League title for 2015–16?",
+    "Give the name of the winner of the English Premier League title for 2015–16.",
+    "For the English Premier League title for 2015–16, who finished as the champion?"
+   ],
+   "source": {
+    "publisher": "Leicester City FC",
+    "url": "https://www.lcfc.com/history-honours-men-premierleague",
+    "locator": "2015/16 - Ranieri's flying Foxes stun the world",
+    "support": "The club's honours history identifies its 2015/16 English championship."
+   }
+  },
+  {
+   "id": "sd53",
+   "write_position": 6,
+   "relation": "gold_medal_count",
+   "event_id": "rio2016_gold_the_United_States",
+   "statement": "The United States won 46 gold medals at the Rio 2016 Olympics.",
+   "answer": {
+    "canonical": "46 gold medals",
+    "aliases": [
+     "46",
+     "46 golds"
+    ],
+    "kind": "count",
+    "value": 46,
+    "unit": "gold medals"
+   },
+   "distractors": [
+    "45 gold medals",
+    "47 gold medals",
+    "48 gold medals"
+   ],
+   "heldout_questions": [
+    "Count only gold medals: how many did the United States at the Rio 2016 Olympics earn?",
+    "For the United States at the Rio 2016 Olympics, what is the number of golds, excluding silver and bronze?",
+    "What number of gold medals belongs to the United States at the Rio 2016 Olympics?",
+    "How many first-place medals did the United States at the Rio 2016 Olympics take home?",
+    "Report the gold tally for the United States at the Rio 2016 Olympics."
+   ],
+   "source": {
+    "publisher": "Italian National Olympic Committee (CONI)",
+    "url": "https://www.coni.it/images/BilancioSostenibilita2016/UNI-CONI-ING-2016.pdf",
+    "locator": "Printed page 15, Rio 2016 Olympic Games medal table, gold column",
+    "support": "The United States won 46 gold medals at the Rio 2016 Olympics."
+   }
+  },
+  {
+   "id": "sd62",
+   "write_position": 7,
+   "relation": "winning_time",
+   "event_id": "bolt_london200_2012",
+   "statement": "Usain Bolt's winning time in the London 2012 Olympic men's 200-metre final was 19.32 seconds.",
+   "answer": {
+    "canonical": "19.32 seconds",
+    "aliases": [
+     "19.32 s",
+     "19.32"
+    ],
+    "kind": "duration",
+    "seconds": "19.32",
+    "precision_seconds": "0.01"
+   },
+   "distractors": [
+    "19.19 seconds",
+    "19.30 seconds",
+    "19.44 seconds"
+   ],
+   "heldout_questions": [
+    "What value was recorded for Usain Bolt's winning time in the London 2012 Olympic men's 200-metre final? Answer in seconds, or minutes and seconds, to the stated hundredth-second precision.",
+    "Identify Usain Bolt's winning time in the London 2012 Olympic men's 200-metre final, expressed in seconds, or minutes and seconds, to the stated hundredth-second precision.",
+    "Give the official measurement for Usain Bolt's winning time in the London 2012 Olympic men's 200-metre final. Use seconds, or minutes and seconds, to the stated hundredth-second precision.",
+    "For Usain Bolt's winning time in the London 2012 Olympic men's 200-metre final, what exact result should be listed in seconds, or minutes and seconds, to the stated hundredth-second precision?",
+    "Supply Usain Bolt's winning time in the London 2012 Olympic men's 200-metre final without rounding, in seconds, or minutes and seconds, to the stated hundredth-second precision."
+   ],
+   "source": {
+    "publisher": "World Athletics",
+    "url": "https://worldathletics.org/news/news/bolt-named-aips-athlete-of-the-year",
+    "locator": "London 2012 100m and 200m winning times",
+    "support": "Usain Bolt's winning time in the London 2012 Olympic men's 200-metre final was 19.32 seconds."
+   }
+  },
+  {
+   "id": "sd75",
+   "write_position": 8,
+   "relation": "final_score",
+   "event_id": "uel_score_2016",
+   "statement": "The 2016 UEFA Europa League final ended Sevilla 3–1 Liverpool at the end of the match.",
+   "answer": {
+    "canonical": "3–1",
+    "aliases": [
+     "3-1"
+    ],
+    "kind": "score",
+    "ordered_teams": [
+     "Sevilla",
+     "Liverpool"
+    ],
+    "goals": [
+     3,
+     1
+    ],
+    "time_scope": "end_of_match"
+   },
+   "distractors": [
+    "0–0",
+    "1–0",
+    "2–0"
+   ],
+   "heldout_questions": [
+    "Report the scoreline of the 2016 UEFA Europa League final, at the end of the match, in Sevilla–Liverpool order.",
+    "How many goals did each side have in the 2016 UEFA Europa League final, at the end of the match, in Sevilla–Liverpool order?",
+    "Supply the result in goals for the 2016 UEFA Europa League final, at the end of the match, in Sevilla–Liverpool order.",
+    "For the 2016 UEFA Europa League final, at the end of the match, in Sevilla–Liverpool order, give both teams' goal totals.",
+    "What was the final goal tally in the 2016 UEFA Europa League final, at the end of the match, in Sevilla–Liverpool order?"
+   ],
+   "source": {
+    "publisher": "UEFA",
+    "url": "https://www.uefa.com/uefaeuropaleague/history/video/finals/0235-0e67d29ab84c-23808bfac7b4-1000--2016-final-sevilla-3-1-liverpool/",
+    "locator": "2016 final result in official highlights title",
+    "support": "The 2016 UEFA Europa League final ended Sevilla 3–1 Liverpool at the end of the match."
+   }
+  },
+  {
+   "id": "sd22",
+   "write_position": 9,
+   "relation": "tournament_winner",
+   "event_id": "nhl_title_2018",
+   "statement": "Washington Capitals won the 2018 Stanley Cup.",
+   "answer": {
+    "canonical": "Washington Capitals",
+    "aliases": [
+     "Capitals"
+    ],
+    "kind": "team"
+   },
+   "distractors": [
+    "Vegas Golden Knights",
+    "Pittsburgh Penguins",
+    "Tampa Bay Lightning"
+   ],
+   "heldout_questions": [
+    "Identify the successful team in the 2018 Stanley Cup.",
+    "To whom did the 2018 Stanley Cup go?",
+    "Which team secured the 2018 Stanley Cup?",
+    "Give the name of the winner of the 2018 Stanley Cup.",
+    "For the 2018 Stanley Cup, who finished as the champion?"
+   ],
+   "source": {
+    "publisher": "NHL",
+    "url": "https://www.nhl.com/capitals/history/2018-stanley-cup",
+    "locator": "Stanley Cup Final, Game 5",
+    "support": "Washington Capitals won the 2018 Stanley Cup."
+   }
+  },
+  {
+   "id": "sd07",
+   "write_position": 10,
+   "relation": "competition_venue",
+   "event_id": "uefa_champions_league_final_2014",
+   "statement": "The 2014 UEFA men's Champions League final was played at Estádio da Luz.",
+   "answer": {
+    "canonical": "Estádio da Luz",
+    "aliases": [
+     "Estadio da Luz",
+     "Estádio do Sport Lisboa e Benfica",
+     "Estadio do Sport Lisboa e Benfica"
+    ],
+    "kind": "venue"
+   },
+   "distractors": [
+    "Estádio José Alvalade",
+    "Wembley Stadium",
+    "San Siro"
+   ],
+   "heldout_questions": [
+    "Identify the stadium used for the 2014 UEFA men's Champions League final.",
+    "Give the name of the venue for the 2014 UEFA men's Champions League final.",
+    "What ground was chosen for the 2014 UEFA men's Champions League final?",
+    "For the 2014 UEFA men's Champions League final, which stadium hosted the match?",
+    "Name the stadium, not just the city, where the 2014 UEFA men's Champions League final took place."
+   ],
+   "source": {
+    "publisher": "UEFA",
+    "url": "https://www.uefa.com/uefachampionsleague/news/0214-0e89ff2669bd-575ad48c5e4d-1000--estadio-do-sport-lisboa-e-benfica/",
+    "locator": "Venue profile",
+    "support": "UEFA identifies Benfica's stadium as the 2014 Champions League final venue."
+   }
+  },
+  {
+   "id": "sd95",
+   "write_position": 11,
+   "relation": "event_date",
+   "event_id": "rio_open_2016",
+   "statement": "The opening ceremony of the Rio 2016 Summer Olympics took place on 5 August 2016, local time.",
+   "answer": {
+    "canonical": "5 August 2016",
+    "aliases": [
+     "August 5, 2016",
+     "2016-08-05"
+    ],
+    "kind": "date",
+    "iso_date": "2016-08-05"
+   },
+   "distractors": [
+    "3 August 2016",
+    "4 August 2016",
+    "6 August 2016"
+   ],
+   "heldout_questions": [
+    "Identify the date on which the opening ceremony of the Rio 2016 Summer Olympics occurred. Use the full local date.",
+    "For the opening ceremony of the Rio 2016 Summer Olympics, supply the day, month and year at the venue.",
+    "Which local calendar day saw the opening ceremony of the Rio 2016 Summer Olympics? Include month and year.",
+    "Report the full date of the opening ceremony of the Rio 2016 Summer Olympics as observed locally.",
+    "What date should be listed for the opening ceremony of the Rio 2016 Summer Olympics? Use day, month and year in local time."
+   ],
+   "source": {
+    "publisher": "Canadian Olympic Committee",
+    "url": "https://olympic.ca/2016/08/05/the-rio-2016-opening-ceremony/",
+    "locator": "Dated opening-ceremony report",
+    "support": "The opening ceremony of the Rio 2016 Summer Olympics took place on 5 August 2016, local time."
+   }
+  },
+  {
+   "id": "sd29",
+   "write_position": 12,
+   "relation": "individual_winner",
+   "event_id": "wimbledon_women_2011",
+   "statement": "Petra Kvitová won the women's singles title at Wimbledon in 2011.",
+   "answer": {
+    "canonical": "Petra Kvitová",
+    "aliases": [
+     "Petra Kvitova",
+     "Kvitova"
+    ],
+    "kind": "person"
+   },
+   "distractors": [
+    "Maria Sharapova",
+    "Serena Williams",
+    "Victoria Azarenka"
+   ],
+   "heldout_questions": [
+    "Identify the successful player in the women's singles title at Wimbledon in 2011.",
+    "To whom did the women's singles title at Wimbledon in 2011 go?",
+    "Which player secured the women's singles title at Wimbledon in 2011?",
+    "Give the name of the winner of the women's singles title at Wimbledon in 2011.",
+    "For the women's singles title at Wimbledon in 2011, who finished as the champion?"
+   ],
+   "source": {
+    "publisher": "Wimbledon",
+    "url": "https://www.wimbledon.com/pdf/Compendium_2021.pdf",
+    "locator": "Printed page 55, 2011 and 2017 women's singles champion rows, indexed table",
+    "support": "Petra Kvitová won the women's singles title at Wimbledon in 2011."
+   }
+  },
+  {
+   "id": "sd87",
+   "write_position": 13,
+   "relation": "award_recipient",
+   "event_id": "nba_mvp_2015",
+   "statement": "Stephen Curry received the NBA regular-season MVP award for 2014–15.",
+   "answer": {
+    "canonical": "Stephen Curry",
+    "aliases": [
+     "Steph Curry",
+     "Curry"
+    ],
+    "kind": "person"
+   },
+   "distractors": [
+    "James Harden",
+    "LeBron James",
+    "Anthony Davis"
+   ],
+   "heldout_questions": [
+    "Give the name of the player honoured with the NBA regular-season MVP award for 2014–15.",
+    "Identify the winner of the NBA regular-season MVP award for 2014–15.",
+    "Which athlete earned the NBA regular-season MVP award for 2014–15?",
+    "Who took home the NBA regular-season MVP award for 2014–15?",
+    "For the NBA regular-season MVP award for 2014–15, who was the successful player?"
+   ],
+   "source": {
+    "publisher": "NBA",
+    "url": "https://api-hub.nba.com/news/history-season-recaps-index",
+    "locator": "Regular-season MVP rows for 2010-11, 2013-14, 2014-15, 2017-18, 2018-19",
+    "support": "Stephen Curry received the NBA regular-season MVP award for 2014–15."
+   }
+  },
+  {
+   "id": "sd100",
+   "write_position": 14,
+   "relation": "event_date",
+   "event_id": "buenos_open_2018",
+   "statement": "The opening ceremony of the Buenos Aires 2018 Youth Olympic Games took place on 6 October 2018, local time.",
+   "answer": {
+    "canonical": "6 October 2018",
+    "aliases": [
+     "October 6, 2018",
+     "2018-10-06"
+    ],
+    "kind": "date",
+    "iso_date": "2018-10-06"
+   },
+   "distractors": [
+    "4 October 2018",
+    "5 October 2018",
+    "7 October 2018"
+   ],
+   "heldout_questions": [
+    "Identify the date on which the opening ceremony of the Buenos Aires 2018 Youth Olympic Games occurred. Use the full local date.",
+    "For the opening ceremony of the Buenos Aires 2018 Youth Olympic Games, supply the day, month and year at the venue.",
+    "Which local calendar day saw the opening ceremony of the Buenos Aires 2018 Youth Olympic Games? Include month and year.",
+    "Report the full date of the opening ceremony of the Buenos Aires 2018 Youth Olympic Games as observed locally.",
+    "What date should be listed for the opening ceremony of the Buenos Aires 2018 Youth Olympic Games? Use day, month and year in local time."
+   ],
+   "source": {
+    "publisher": "Canadian Olympic Committee",
+    "url": "https://olympic.ca/games/buenos-aires-2018/",
+    "locator": "Opening ceremony on 6 October 2018",
+    "support": "The opening ceremony of the Buenos Aires 2018 Youth Olympic Games took place on 6 October 2018, local time."
+   }
+  },
+  {
+   "id": "sd32",
+   "write_position": 15,
+   "relation": "individual_winner",
+   "event_id": "usopen_women_2019",
+   "statement": "Bianca Andreescu won the women's singles title at the 2019 US Open tennis tournament.",
+   "answer": {
+    "canonical": "Bianca Andreescu",
+    "aliases": [
+     "Andreescu"
+    ],
+    "kind": "person"
+   },
+   "distractors": [
+    "Serena Williams",
+    "Naomi Osaka",
+    "Elina Svitolina"
+   ],
+   "heldout_questions": [
+    "Identify the successful player in the women's singles title at the 2019 US Open tennis tournament.",
+    "To whom did the women's singles title at the 2019 US Open tennis tournament go?",
+    "Which player secured the women's singles title at the 2019 US Open tennis tournament?",
+    "Give the name of the winner of the women's singles title at the 2019 US Open tennis tournament.",
+    "For the women's singles title at the 2019 US Open tennis tournament, who finished as the champion?"
+   ],
+   "source": {
+    "publisher": "USTA / US Open",
+    "url": "https://www.usopen.org/en_US/news/articles/2019-12-23/decade_in_review_us_open_by_the_numbers.html",
+    "locator": "Women's champions by year and continent",
+    "support": "Bianca Andreescu won the women's singles title at the 2019 US Open tennis tournament."
+   }
+  },
+  {
+   "id": "sd58",
+   "write_position": 16,
+   "relation": "gold_medal_count",
+   "event_id": "rio2016_gold_Japan",
+   "statement": "Japan won 12 gold medals at the Rio 2016 Olympics.",
+   "answer": {
+    "canonical": "12 gold medals",
+    "aliases": [
+     "12",
+     "12 golds"
+    ],
+    "kind": "count",
+    "value": 12,
+    "unit": "gold medals"
+   },
+   "distractors": [
+    "11 gold medals",
+    "13 gold medals",
+    "14 gold medals"
+   ],
+   "heldout_questions": [
+    "Count only gold medals: how many did Japan at the Rio 2016 Olympics earn?",
+    "For Japan at the Rio 2016 Olympics, what is the number of golds, excluding silver and bronze?",
+    "What number of gold medals belongs to Japan at the Rio 2016 Olympics?",
+    "How many first-place medals did Japan at the Rio 2016 Olympics take home?",
+    "Report the gold tally for Japan at the Rio 2016 Olympics."
+   ],
+   "source": {
+    "publisher": "Italian National Olympic Committee (CONI)",
+    "url": "https://www.coni.it/images/BilancioSostenibilita2016/UNI-CONI-ING-2016.pdf",
+    "locator": "Printed page 15, Rio 2016 Olympic Games medal table, gold column",
+    "support": "Japan won 12 gold medals at the Rio 2016 Olympics."
+   }
+  },
+  {
+   "id": "sd88",
+   "write_position": 17,
+   "relation": "award_recipient",
+   "event_id": "nba_mvp_2018",
+   "statement": "James Harden received the NBA regular-season MVP award for 2017–18.",
+   "answer": {
+    "canonical": "James Harden",
+    "aliases": [
+     "Harden"
+    ],
+    "kind": "person"
+   },
+   "distractors": [
+    "LeBron James",
+    "Anthony Davis",
+    "Damian Lillard"
+   ],
+   "heldout_questions": [
+    "Give the name of the player honoured with the NBA regular-season MVP award for 2017–18.",
+    "Identify the winner of the NBA regular-season MVP award for 2017–18.",
+    "Which athlete earned the NBA regular-season MVP award for 2017–18?",
+    "Who took home the NBA regular-season MVP award for 2017–18?",
+    "For the NBA regular-season MVP award for 2017–18, who was the successful player?"
+   ],
+   "source": {
+    "publisher": "NBA",
+    "url": "https://api-hub.nba.com/news/history-season-recaps-index",
+    "locator": "Regular-season MVP rows for 2010-11, 2013-14, 2014-15, 2017-18, 2018-19",
+    "support": "James Harden received the NBA regular-season MVP award for 2017–18."
+   }
+  },
+  {
+   "id": "sd86",
+   "write_position": 18,
+   "relation": "award_recipient",
+   "event_id": "nba_mvp_2014",
+   "statement": "Kevin Durant received the NBA regular-season MVP award for 2013–14.",
+   "answer": {
+    "canonical": "Kevin Durant",
+    "aliases": [
+     "Durant"
+    ],
+    "kind": "person"
+   },
+   "distractors": [
+    "LeBron James",
+    "Blake Griffin",
+    "Joakim Noah"
+   ],
+   "heldout_questions": [
+    "Give the name of the player honoured with the NBA regular-season MVP award for 2013–14.",
+    "Identify the winner of the NBA regular-season MVP award for 2013–14.",
+    "Which athlete earned the NBA regular-season MVP award for 2013–14?",
+    "Who took home the NBA regular-season MVP award for 2013–14?",
+    "For the NBA regular-season MVP award for 2013–14, who was the successful player?"
+   ],
+   "source": {
+    "publisher": "NBA",
+    "url": "https://api-hub.nba.com/news/history-season-recaps-index",
+    "locator": "Regular-season MVP rows for 2010-11, 2013-14, 2014-15, 2017-18, 2018-19",
+    "support": "Kevin Durant received the NBA regular-season MVP award for 2013–14."
+   }
+  },
+  {
+   "id": "sd42",
+   "write_position": 19,
+   "relation": "host_city",
+   "event_id": "athletics_host_2013",
+   "statement": "Moscow hosted the 2013 IAAF World Championships in Athletics.",
+   "answer": {
+    "canonical": "Moscow",
+    "aliases": [
+     "Moskva"
+    ],
+    "kind": "city"
+   },
+   "distractors": [
+    "Saint Petersburg",
+    "Kazan",
+    "Sochi"
+   ],
+   "heldout_questions": [
+    "Give the host city's name for the 2013 IAAF World Championships in Athletics.",
+    "Where did the 2013 IAAF World Championships in Athletics take place? Name the host city.",
+    "Identify the city selected to host the 2013 IAAF World Championships in Athletics.",
+    "What city welcomed the 2013 IAAF World Championships in Athletics?",
+    "For the 2013 IAAF World Championships in Athletics, name the host city rather than the country."
+   ],
+   "source": {
+    "publisher": "World Athletics",
+    "url": "https://worldathletics.org/competitions/world-athletics-championships/13th-iaaf-world-championships-in-athletics-7003367/news/amp/100-days-to-go-moscow-2013",
+    "locator": "2013 championship host and schedule",
+    "support": "Moscow hosted the 2013 IAAF World Championships in Athletics."
+   }
+  },
+  {
+   "id": "sd77",
+   "write_position": 20,
+   "relation": "record_measurement",
+   "event_id": "suhr_albuquerque_2013",
+   "statement": "Jenn Suhr's world-indoor-record pole-vault height in Albuquerque on 2 March 2013 was 5.02 metres.",
+   "answer": {
+    "canonical": "5.02 metres",
+    "aliases": [
+     "5.02 meters",
+     "5.02 m"
+    ],
+    "kind": "length",
+    "metres": "5.02",
+    "precision_metres": "0.01"
+   },
+   "distractors": [
+    "5.00 metres",
+    "5.01 metres",
+    "5.03 metres"
+   ],
+   "heldout_questions": [
+    "What value was recorded for Jenn Suhr's world-indoor-record pole-vault height in Albuquerque on 2 March 2013? Answer in metres to two decimal places.",
+    "Identify Jenn Suhr's world-indoor-record pole-vault height in Albuquerque on 2 March 2013, expressed in metres to two decimal places.",
+    "Give the official measurement for Jenn Suhr's world-indoor-record pole-vault height in Albuquerque on 2 March 2013. Use metres to two decimal places.",
+    "For Jenn Suhr's world-indoor-record pole-vault height in Albuquerque on 2 March 2013, what exact result should be listed in metres to two decimal places?",
+    "Supply Jenn Suhr's world-indoor-record pole-vault height in Albuquerque on 2 March 2013 without rounding, in metres to two decimal places."
+   ],
+   "source": {
+    "publisher": "World Athletics",
+    "url": "https://worldathletics.org/awards/news/suhr-pole-vault-world-indoor-record",
+    "locator": "2016 5.03m record and previous 2013 5.02m record",
+    "support": "Jenn Suhr's world-indoor-record pole-vault height in Albuquerque on 2 March 2013 was 5.02 metres."
+   }
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1
+talkie @ git+https://github.com/talkie-lm/talkie.git@35317ba3a84861a84c84065bd73faf88ad19329c
+huggingface-hub==1.29.0
+tiktoken==0.14.0
+safetensors>=0.4
+openai>=1.0
+pytest>=8
